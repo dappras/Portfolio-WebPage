@@ -1,0 +1,178 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  position: fixed;
+  width: 93%;
+  z-index: 5;
+  background-color: white;
+  padding: 8px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+}
+
+.nav .left {
+  flex: 1;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav .middle {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+}
+
+.nav .right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.nav .right p {
+  margin-left: 8px;
+}
+
+.cover {
+  padding-top: 95px;
+}
+
+.cover img{
+  width: 100%;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.experience .card {
+  display: flex;
+}
+
+.experience .title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.experience .list {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.experience .fill {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+.experience .image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.experience .card .section1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.experience .card .section1 p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.experience .card .section2 {
+  font-size: 12px;
+  margin-top: 6px;
+  display: flex;
+}
+
+.experience .card .section2 p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.experience .card .section2 .nameCompany, .experience .card .section2 .bookmark {
+  margin-right: 6px;
+}
+
+.experience .card .section3 {
+  font-size: 12px;
+  margin-top: 6px;
+  opacity: 0.7;
+}
+
+.experience .card .section3 p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project{
+  margin: 0px 120px;
+  margin-bottom: 60px;
+  padding-top: 80px;
+}
+
+.project .title{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.project .list-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project .card {
+  width: 309px;
+  background-color: #F8F7F2;
+  border-radius: 12px;
+  margin-bottom: 28px;
+}
+
+.project .fill {
+  width: 309px;
+  height: 170px;
+}
+
+
+.project .image {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.project .desc {
+  padding-right: 21px;
+  padding-left: 21px;
+  padding-top: 8px;
+  padding-bottom: 21px;
+}
+
+.desc .created {
+  opacity: 0.7;
+  margin-bottom: 0px;
+}
